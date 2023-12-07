@@ -12,7 +12,7 @@
 **Contact me:**
 * [LinkedIn](https://www.linkedin.com/in/henriquewfranco/)  
 * [GitHub](https://github.com/allmeidaapedro)
-* [E-mail:] (pedrooalmeida.net@gmail.com)
+* [E-mail](pedrooalmeida.net@gmail.com)
 
 
 ## PROJECTS
