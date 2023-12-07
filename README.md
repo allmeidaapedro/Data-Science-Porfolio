@@ -91,7 +91,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
   <img width="65%" height="65%" src="images/sihouette_plot_kmeans.png">
 </p>
 <p align="center">
-  <img width="50%" height="30%" src="images/clusters_plot.png">
+  <img width="60%" height="25%" src="images/clusters_plot.png">
 </p>
 
 - Model results;
