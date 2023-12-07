@@ -96,7 +96,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Model results;
 <p align="center">
-  <img src="images/scatterplot_clusters.png">
+  <img width="65%" height="65%" src="images/scatterplot_clusters.png">
 </p>
 
 
