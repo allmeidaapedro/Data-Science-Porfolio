@@ -69,13 +69,13 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some analysis made;
 <p align="center">
-  <img width="65%" height="65%" src="images/time_series_decomposition.png
+  <img src="images/time_series_decomposition.png
 ">
 </p>
 
 - Model results;
 <p align="center">
-  <img width="65%" height="65%" src="images/actual_pred_graph_lgb.png">
+  <img src="images/actual_pred_graph_lgb.png">
 </p>
 
 
@@ -90,17 +90,17 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Clustering;
 <p align="center">
-  <img width="65%" height="65%" src="images/sihouette_plot_kmeans.png
+  <img src="images/sihouette_plot_kmeans.png
 ">
 </p>
 <p align="center">
-  <img width="65%" height="65%" src="images/clusters_plot.png
+  <img src="images/clusters_plot.png
 ">
 </p>
 
 - Model results;
 <p align="center">
-  <img width="65%" height="65%" src="images/scatterplot_clusters.png">
+  <img src="images/scatterplot_clusters.png">
 </p>
 
 
@@ -111,13 +111,13 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 - Some interesting business questions that have been answered include:
 - 1. The sales grew over the two years, reaching their peak in November 2017, likely due to Black Friday. Furthermore, it is noticeable that after this peak in 2017, sales tend to maintain at a high number compared to previous years.
 <p align="center">
-  <img width="65%" height="65%" src="images/vendas_mensal.png
+  <img src="images/vendas_mensal.png
 ">
 </p>
 
 - 2. The states in the South and Southeast regions concentrate the highest numbers of orders, customers, and sellers. Particularly, the state of São Paulo and its capital exhibit values higher than all others. Meanwhile, states in the North and Northeast regions show the lowest indicators.
 <p align="center">
-  <img width="65%" height="65%" src="images/pedidos_por_cidade.png
+  <img src="images/pedidos_por_cidade.png
   ">
 </p>
 
