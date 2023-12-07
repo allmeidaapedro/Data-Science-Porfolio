@@ -49,7 +49,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some analysis made;
 <p align="center">
-  <img src="images/numeric_distributions_by_churn.png">
+  <img width="65%" height="65%" src="images/numeric_distributions_by_churn.png">
 </p>
 
 - Deployment;
