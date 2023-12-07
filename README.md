@@ -49,8 +49,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some analysis made;
 <p align="center">
-  <img width="65%" height="65%" src="
-">
+  <img width="65%" height="65%" src="images/numeric_distributions_by_churn.png">
 </p>
 
 - Deployment;
@@ -69,8 +68,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some analysis made;
 <p align="center">
-  <img src="images/time_series_decomposition.png
-">
+  <img src="images/time_series_decomposition.png">
 </p>
 
 - Model results;
@@ -90,12 +88,10 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Clustering;
 <p align="center">
-  <img src="images/sihouette_plot_kmeans.png
-">
+  <img src="images/sihouette_plot_kmeans.png">
 </p>
 <p align="center">
-  <img src="images/clusters_plot.png
-">
+  <img src="images/clusters_plot.png">
 </p>
 
 - Model results;
