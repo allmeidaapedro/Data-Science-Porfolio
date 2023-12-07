@@ -68,12 +68,12 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some analysis made;
 <p align="center">
-  <img width="40%" height="40%" src="images/time_series_decomposition.png">
+  <img width="50%" height="50%" src="images/time_series_decomposition.png">
 </p>
 
 - Model results;
 <p align="center">
-  <img width="65%" height="65%" src="images/actual_pred_graph_lgb.png">
+  <img width="80%" height="80%" src="images/actual_pred_graph_lgb.png">
 </p>
 
 
