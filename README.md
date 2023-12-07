@@ -110,16 +110,12 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 - In this project, I performed an exploratory data analysis of a Brazilian e-commerce company, Olist. Some business questions were formulated and answered through techniques involving data collection, cleaning, exploration, and visualization.
 - Some interesting business questions that have been answered include:
 - 1. The sales grew over the two years, reaching their peak in November 2017, likely due to Black Friday. Furthermore, it is noticeable that after this peak in 2017, sales tend to maintain at a high number compared to previous years.
-<p align="center">
-  <img src="images/vendas_mensal.png
-">
-</p>
+<img src="images/vendas_mensal.png>
+
 
 - 2. The states in the South and Southeast regions concentrate the highest numbers of orders, customers, and sellers. Particularly, the state of São Paulo and its capital exhibit values higher than all others. Meanwhile, states in the North and Northeast regions show the lowest indicators.
-<p align="center">
-  <img src="images/pedidos_por_cidade.png
-  ">
-</p>
+<img src="images/pedidos_por_cidade.png">
+
 
 ## IN DEVELOPMENT 
 - I am currently working with real public data from my country, conducting an exploratory data analysis of ENEM data - the most renowned exam for high school students in Brazil.
