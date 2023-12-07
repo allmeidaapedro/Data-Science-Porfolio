@@ -8,9 +8,9 @@
 </p>
 
 - My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I am a B.Sc. student majoring in Computer Engineering at the Federal University of Brasília. I am passionate about machine learning, data science, and math. I have been working on projects in this area, constantly studying and striving to enhance my knowledge and skills. Check them out below!
-- Contact me:
-  - E-mail: pedrooalmeida.net@gmail.com
-  - LinkedIn: https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/
+**Contact me:**
+  * [LinkedIn:] https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/
+  * [E-mail:] pedrooalmeida.net@gmail.com
 
 
 ## PROJECTS
