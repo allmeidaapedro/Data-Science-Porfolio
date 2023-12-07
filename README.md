@@ -30,12 +30,12 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some results obtained and model validation;
 <p align="center">
-  <img width="65%" height="40%" src="images/probability_distributions_by_default.png">
+  <img width="65%" height="30%" src="images/probability_distributions_by_default.png">
 </p>
 
 - Deployment;
 <p align="center">
-  <img width="65%" height="65%" src="images/predict_page_webapp.jpeg">
+  <img width="70%" height="70%" src="images/predict_page_webapp.jpeg">
 </p>
 
 
@@ -49,12 +49,12 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some analysis made;
 <p align="center">
-  <img width="65%" height="65%" src="images/numeric_distributions_by_churn.png">
+  <img src="images/numeric_distributions_by_churn.png">
 </p>
 
 - Deployment;
 <p align="center">
-  <img width="65%" height="65%" src="images/output_example.jpeg">
+  <img width="20%" height="20%" src="images/output_example.jpeg">
 </p>
 
 
@@ -88,7 +88,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Clustering;
 <p align="center">
-  <img src="images/sihouette_plot_kmeans.png">
+  <img width="90%" height="90%" src="images/sihouette_plot_kmeans.png">
 </p>
 <p align="center">
   <img src="images/clusters_plot.png">
@@ -107,11 +107,15 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 - Some interesting business questions that have been answered include:
 - 1. The sales grew over the two years, reaching their peak in November 2017, likely due to Black Friday. Furthermore, it is noticeable that after this peak in 2017, sales tend to maintain at a high number compared to previous years.
 
-<img src="images/vendas_mensal.png">
+<p align="center">
+  <img width="65%" height="65%" src="images/vendas_mensal.png">
+</p>
 
 - 2. The states in the South and Southeast regions concentrate the highest numbers of orders, customers, and sellers. Particularly, the state of São Paulo and its capital exhibit values higher than all others. Meanwhile, states in the North and Northeast regions show the lowest indicators.
 
-<img src="images/pedidos_por_cidade.png">
+<p align="center">
+  <img width="65%" height="65%" src="images/pedidos_por_cidade.png">
+</p>
 
 
 ## IN DEVELOPMENT 
