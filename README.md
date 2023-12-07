@@ -1,4 +1,4 @@
-# Welcome to my data science portfolio
+# Welcome to my data science portfolio!
 
 [![author](https://img.shields.io/badge/author-pedroalmeida-red.svg)](https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/)
 
@@ -30,12 +30,12 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some results obtained and model validation;
 <p align="center">
-  <img alt="BA" width="65%" height="50%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank/blob/main/images/probability_distributions_by_default.png">
+  <img width="65%" height="40%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank/blob/main/images/probability_distributions_by_default.png">
 </p>
 
 - Deployment;
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank/blob/main/images/predict_page_webapp.jpeg">
+  <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank/blob/main/images/predict_page_webapp.jpeg">
 </p>
 
 
@@ -49,13 +49,13 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some analysis made;
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card/blob/main/images/numeric_distributions_by_churn.png
+  <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card/blob/main/images/numeric_distributions_by_churn.png
 ">
 </p>
 
 - Deployment;
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="hhttps://github.com/allmeidaapedro/Churn-Prediction-Credit-Card/blob/main/images/output_example.jpeg">
+  <img width="65%" height="65%" src="hhttps://github.com/allmeidaapedro/Churn-Prediction-Credit-Card/blob/main/images/output_example.jpeg">
 </p>
 
 
@@ -69,13 +69,13 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some analysis made;
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting/blob/main/reports/time_series_decomposition.png
+  <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting/blob/main/reports/time_series_decomposition.png
 ">
 </p>
 
 - Model results;
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting/blob/main/reports/actual_pred_graph_lgb.png">
+  <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting/blob/main/reports/actual_pred_graph_lgb.png">
 </p>
 
 
@@ -90,17 +90,17 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Clustering;
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Customer-Segmentation-Retail/blob/main/reports/sihouette_plot_kmeans.png
+  <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Customer-Segmentation-Retail/blob/main/reports/sihouette_plot_kmeans.png
 ">
 </p>
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Customer-Segmentation-Retail/blob/main/reports/clusters_plot.png
+  <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Customer-Segmentation-Retail/blob/main/reports/clusters_plot.png
 ">
 </p>
 
 - Model results;
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Customer-Segmentation-Retail/blob/main/reports/scatterplot_clusters.png">
+  <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Customer-Segmentation-Retail/blob/main/reports/scatterplot_clusters.png">
 </p>
 
 
@@ -111,13 +111,13 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 - Some interesting business questions that have been answered include:
 - - The sales grew over the two years, reaching their peak in November 2017, likely due to Black Friday. Furthermore, it is noticeable that after this peak in 2017, sales tend to maintain at a high number compared to previous years.
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Olist-Analysis/blob/main/reports/vendas_mensal.png
+  <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Olist-Analysis/blob/main/reports/vendas_mensal.png
 ">
 </p>
 
 - - The states in the South and Southeast regions concentrate the highest numbers of orders, customers, and sellers. Particularly, the state of São Paulo and its capital exhibit values higher than all others. Meanwhile, states in the North and Northeast regions show the lowest indicators.
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Olist-Analysis/blob/main/reports/pedidos_por_cidade.png
+  <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Olist-Analysis/blob/main/reports/pedidos_por_cidade.png
   ">
 </p>
 
