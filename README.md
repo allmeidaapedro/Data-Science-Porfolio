@@ -51,7 +51,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 <p align="center">
   <img width="80%" height="80%" src="images/numeric_distributions_by_churn.png">
 </p>
-
+ 
 - Deployment;
 <p align="center">
   <img width="20%" height="20%" src="images/output_example.jpeg">
