@@ -19,14 +19,20 @@
 ## CLASSIFICATION
 
 
-###[****GERMAN BANK'S CREDIT SCORING****](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
+### [**GERMAN BANK'S CREDIT SCORING**](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
 
 - This is an end-to-end machine learning project (from data collection to deploy) that uses Random Forest to assign credit scores to potential customers of a German bank.
 - By doing so, it can make informed decisions, protecting Return on Investment (ROI) while minimizing credit risk.
 - I estimated financial results calculating ROI using the expected revenue from non-defaulters' loans, the expected loss from defaulters' loans, and the total credit amount lent before the solution and after changing the bank's credit policy from my credit scoring model. Finally, after extending credit only to customers with a credit score of 600 or higher, the ROI increased from 9.55% to 42.64%.
 - [Check out the entire project] (https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
 
-- - Some results obtained and model validation;
+- Some results obtained and model validation;
 <p align="center">
-  <img alt="BA" width="65%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank/blob/main/images/probability_distributions_by_default.png">
+  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank/blob/main/images/probability_distributions_by_default.png">
+</p>
+
+- Deployment;
+
+<p align="center">
+  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank">
 </p>
