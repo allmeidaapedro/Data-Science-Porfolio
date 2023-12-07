@@ -27,10 +27,12 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 - By doing so, it can make informed decisions, protecting Return on Investment (ROI) while minimizing credit risk.
 - I estimated financial results calculating ROI using the expected revenue from non-defaulters' loans, the expected loss from defaulters' loans, and the total credit amount lent before the solution and after changing the bank's credit policy from my credit scoring model. Finally, after extending credit only to customers with a credit score of 600 or higher, the ROI increased from 9.55% to 42.64%.
 - [Click here to check out the entire project](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
+
 - Some results obtained and model validation;
 <p align="center">
   <img alt="BA" width="65%" height="50%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank/blob/main/images/probability_distributions_by_default.png">
 </p>
+
 - Deployment;
 <p align="center">
   <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank/blob/main/images/predict_page_webapp.jpeg">
@@ -44,11 +46,13 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 -  The main objectives were: Identify the factors associated with customer churn; construct a model capable of predicting as many potential churners as possible; offer action plans for the bank to reduce credit card customer churn.
 - It was possible to achieve an estimated gain of $198,098.82 by calculating the difference between the true positive gain, the cost of retaining false positives and the cost of false negatives churning.
 - [Click here to check out the entire project](https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card)
+
 - Some analysis made;
 <p align="center">
   <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card/blob/main/images/numeric_distributions_by_churn.png
 ">
 </p>
+
 - Deployment;
 <p align="center">
   <img alt="BA" width="65%" height="65%" src="hhttps://github.com/allmeidaapedro/Churn-Prediction-Credit-Card/blob/main/images/output_example.jpeg">
@@ -62,11 +66,13 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 - By doing this, the company will be able to strategically manage inventory and allocate resources effectively, maximizing overall revenue and profit. 
 - The financial result per store, per store and item and for the total company is present inside the project.
 - [Click here to check out the entire project](https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting)
+
 - Some analysis made;
 <p align="center">
   <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting/blob/main/reports/time_series_decomposition.png
 ">
 </p>
+
 - Model results;
 <p align="center">
   <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting/blob/main/reports/actual_pred_graph_lgb.png">
@@ -79,7 +85,9 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 - In this project, I performed an unsupervised learning clustering task using K-Means on unlabeled training data to segment and profile customers for a retail store.
 - After segmenting the clients, a loyalty program called "Prosperous" was developed based on the profile of our best customers, the Prosperous ones. 
 - The loyalty program has the potential to increase the total store revenue by 9%, amounting to $125,228.55. Therefore, the project is worthwhile.
+
 - [Click here to check out the entire project](https://github.com/allmeidaapedro/Customer-Segmentation-Retail)
+
 - Clustering;
 <p align="center">
   <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Customer-Segmentation-Retail/blob/main/reports/sihouette_plot_kmeans.png
@@ -89,6 +97,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
   <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Customer-Segmentation-Retail/blob/main/reports/clusters_plot.png
 ">
 </p>
+
 - Model results;
 <p align="center">
   <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Customer-Segmentation-Retail/blob/main/reports/scatterplot_clusters.png">
