@@ -111,7 +111,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 - Some interesting business questions that have been answered include:
 - 1. The sales grew over the two years, reaching their peak in November 2017, likely due to Black Friday. Furthermore, it is noticeable that after this peak in 2017, sales tend to maintain at a high number compared to previous years.
 
-<img src="images/vendas_mensal.png>
+<img src="images/vendas_mensal.png">
 
 - 2. The states in the South and Southeast regions concentrate the highest numbers of orders, customers, and sellers. Particularly, the state of São Paulo and its capital exhibit values higher than all others. Meanwhile, states in the North and Northeast regions show the lowest indicators.
 
