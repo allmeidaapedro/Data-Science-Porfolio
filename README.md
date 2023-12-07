@@ -49,7 +49,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 - Some analysis made;
 <p align="center">
-  <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card/blob/main/images/numeric_distributions_by_churn.png
+  <img width="65%" height="65%" src="
 ">
 </p>
 
@@ -109,13 +109,13 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 ### [**Olist Store**](https://github.com/allmeidaapedro/Olist-Analysis)
 - In this project, I performed an exploratory data analysis of a Brazilian e-commerce company, Olist. Some business questions were formulated and answered through techniques involving data collection, cleaning, exploration, and visualization.
 - Some interesting business questions that have been answered include:
-- - The sales grew over the two years, reaching their peak in November 2017, likely due to Black Friday. Furthermore, it is noticeable that after this peak in 2017, sales tend to maintain at a high number compared to previous years.
+- 1. The sales grew over the two years, reaching their peak in November 2017, likely due to Black Friday. Furthermore, it is noticeable that after this peak in 2017, sales tend to maintain at a high number compared to previous years.
 <p align="center">
   <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Olist-Analysis/blob/main/reports/vendas_mensal.png
 ">
 </p>
 
-- - The states in the South and Southeast regions concentrate the highest numbers of orders, customers, and sellers. Particularly, the state of São Paulo and its capital exhibit values higher than all others. Meanwhile, states in the North and Northeast regions show the lowest indicators.
+- 2. The states in the South and Southeast regions concentrate the highest numbers of orders, customers, and sellers. Particularly, the state of São Paulo and its capital exhibit values higher than all others. Meanwhile, states in the North and Northeast regions show the lowest indicators.
 <p align="center">
   <img width="65%" height="65%" src="https://github.com/allmeidaapedro/Olist-Analysis/blob/main/reports/pedidos_por_cidade.png
   ">
