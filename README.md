@@ -34,5 +34,5 @@
 - Deployment;
 
 <p align="center">
-  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank">
+  <img alt="BA" width="65%" height="65%" src="https://github.com/allmeidaapedro/Credit-Scoring-German-Bank/blob/main/images/predict_page_webapp.jpeg">
 </p>
