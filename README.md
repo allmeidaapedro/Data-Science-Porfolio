@@ -7,8 +7,7 @@
   <img src="images/welcome.jpg"%>
 </p>
 
-My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I am a B.Sc. student majoring in Computer Engineering at the Federal University of Brasília. I am passionate about machine learning, data science, and math. I have been working on projects in this area, constantly studying and striving to enhance my knowledge and skills. Check them out below!
-
+I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer Engineering at the Federal University of Brasília. Currently, I'm working as a quantitative analyst intern at Disrux and Arthur Mining. In this role, I conduct quantitative analysis in various financial market areas, including crypto, blockchain, and investment. I apply data analysis, visualization, and storytelling using Python and statistical methods. Additionally, I actively contribute to my team by developing tools, solutions, and machine learning models to enhance market analysis. My enthusiasm lies in machine learning, data science, and mathematics, and I'm constantly working on projects in these areas. Explore them below!
 
 ## PROJECTS
 
