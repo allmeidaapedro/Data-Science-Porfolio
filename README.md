@@ -9,11 +9,6 @@
 
 My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I am a B.Sc. student majoring in Computer Engineering at the Federal University of Brasília. I am passionate about machine learning, data science, and math. I have been working on projects in this area, constantly studying and striving to enhance my knowledge and skills. Check them out below!
 
-**Contact me:**
-* [LinkedIn](https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/)  
-* [GitHub](https://github.com/allmeidaapedro)
-* [E-mail](pedrooalmeida.net@gmail.com)
-
 
 ## PROJECTS
 
@@ -83,7 +78,6 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 - In this project, I performed an unsupervised learning clustering task using K-Means on unlabeled training data to segment and profile customers for a retail store.
 - After segmenting the clients, a loyalty program called "Prosperous" was developed based on the profile of our best customers, the Prosperous ones. 
 - The loyalty program has the potential to increase the total store revenue by 9%, amounting to $125,228.55. Therefore, the project is worthwhile.
-
 - [Click here to check out the entire project](https://github.com/allmeidaapedro/Customer-Segmentation-Retail)
 
 - Clustering;
@@ -101,6 +95,7 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 ### [**Olist Store**](https://github.com/allmeidaapedro/Olist-Analysis)
 - In this project, I performed an exploratory data analysis of a Brazilian e-commerce company, Olist. Some business questions were formulated and answered through techniques involving data collection, cleaning, exploration, and visualization.
+- [Click here to check out the entire project](https://github.com/allmeidaapedro/Olist-Analysis)
 - Some interesting business questions that have been answered include:
 - 1. The sales grew over the two years, reaching their peak in November 2017, likely due to Black Friday. Furthermore, it is noticeable that after this peak in 2017, sales tend to maintain at a high number compared to previous years.
 
@@ -117,6 +112,12 @@ My name is Pedro Almeida. I am from Brazil and I am 20 years old. Currently, I a
 
 ## IN DEVELOPMENT 
 - I am currently working with real public data from my country, conducting an exploratory data analysis of ENEM data - the most renowned exam for high school students in Brazil.
+
+## CONTACT ME
+**Find me:**
+* [LinkedIn](https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/)  
+* [GitHub](https://github.com/allmeidaapedro)
+* [E-mail](pedrooalmeida.net@gmail.com)
 
 
 
