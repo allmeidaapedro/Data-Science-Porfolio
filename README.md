@@ -12,6 +12,31 @@ I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer 
 ## PROJECTS
 
 
+## EXPLORATORY DATA ANALYSIS, CLASSIFICATION AND REGRESSION
+
+### [**Enem analysis and modelling**](https://github.com/allmeidaapedro/Enem-Analysis)
+- This is an end-to-end data science project (from data collection to deployment) where data cleaning, exploratory data analysis, and modeling are performed on microdata from the ENEM 2022 (real public data). ENEM (Exame Nacional do Ensino Médio) is a standardized national exam in Brazil used for university admissions and evaluation of high school education.
+- Cleaning was crucial, given that the original microdata set was over 2 GB in size, making data manipulation, analysis, and modeling impractical. After completion, a parquet file was obtained, reducing the size of the original dataset from over 2 GB to approximately 221.7 MB, nearly 10%.
+- The analysis and modeling are divided into two approaches:
+  - Performance analysis and modeling: The goal of this analysis is to identify the key variables impacting the candidate's score, understand their relationship with performance, and utilize them for predicting the score. For the prediction task, a Lasso Regression model is employed, due to interpretability (coefficients), regularization and feature selection characteristics.
+  - Absenteeism analysis and modeling: The objective of this analysis is to identify the primary factors influencing a candidate's absence from the exam. Additionally, it aims to examine how these factors correlate with absenteeism and predict the probability of a student's abstention. For the prediction task, a Logistic Regression model is utilized, due to interpretability (exponential coefficients), regularization through l1 penalty, class_weight hyperparameter and efficiency characteristics.
+- Two Flask APIs were developed for deploying the models from both aforementioned analyses. This enables the prediction of a candidate's score or the probability of absenteeism by providing socioeconomic and educational data about the candidate.
+
+- Some results obtained and model validation;
+<p align="center">
+  <img width="65%" height="30%" src="images/nota_pc_net.png">
+</p>
+
+<p align="center">
+  <img width="65%" height="30%" src="images/faixas_score_ausentes.png">
+</p>
+
+- Deployment;
+<p align="center">
+  <img width="70%" height="70%" src="images/predicao_abstencao.png">
+</p>
+
+
 ## CLASSIFICATION
 
 
@@ -110,7 +135,7 @@ I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer 
 
 
 ## IN DEVELOPMENT 
-- I am currently working with real public data from my country, conducting an exploratory data analysis of ENEM data - the most renowned exam for high school students in Brazil.
+- I am currently studying and working on credit field projects.
 
 ## CONTACT ME
 * [LinkedIn](https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/)  
