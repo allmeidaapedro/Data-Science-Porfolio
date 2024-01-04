@@ -36,6 +36,10 @@ I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer 
   <img width="70%" height="70%" src="images/predicao_abstencao.png">
 </p>
 
+<p align="center">
+  <img width="70%" height="70%" src="images/desempenho_predicao.png">
+</p>
+
 
 ## CLASSIFICATION
 
