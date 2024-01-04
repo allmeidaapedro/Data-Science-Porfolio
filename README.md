@@ -22,23 +22,38 @@ I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer 
   - Absenteeism analysis and modeling: The objective of this analysis is to identify the primary factors influencing a candidate's absence from the exam. Additionally, it aims to examine how these factors correlate with absenteeism and predict the probability of a student's abstention. For the prediction task, a Logistic Regression model is utilized, due to interpretability (exponential coefficients), regularization through l1 penalty, class_weight hyperparameter and efficiency characteristics.
 - Two Flask APIs were developed for deploying the models from both aforementioned analyses. This enables the prediction of a candidate's score or the probability of absenteeism by providing socioeconomic and educational data about the candidate.
 
+- Some interesting points discovered include:
+- 1. Observing Lasso Regression coefficients, the increase of one unit in has_computer_at_home variable, that is, from zero to one, or from one to two or more, reflects an increase of 9.45 in the overall score, considering all other variables constant. That makes sense, as we observed in the performance analysis that students who did not have a computer at home exhibited lower performance compared to those who did.
+  <p align="center">
+  <img width="80%" height="80%" src="images/nota_pc_net.png">
+  </p>
+
+- 2. Observing Logistic Regression coefficients exponentials (representing the odds-ratio), for each increase of one unit in age group (i.e., from adolescent to young adult, adult to middle-aged to elderly, for example), the odds of abstention increase by 35%, considering all other variables constant. That makes sense, as we observed in the absence analysis that the abstention rate among adult, middle-aged, and elderly candidates was higher than that of adolescent and young adult candidates.
+
+  <p align="center">
+  <img width="80%" height="80%" src="images/comparecimento_faixa_etaria.png">
+  </p>
+
 - Some results obtained and model validation;
+
 <p align="center">
-  <img width="65%" height="30%" src="images/nota_pc_net.png">
+  <img width="65%" height="30%" src="images/actual_predicted.png">
 </p>
 
 <p align="center">
-  <img width="65%" height="30%" src="images/faixas_score_ausentes.png">
+  <img width="80%" height="80%" src="images/faixas_score_ausentes.png">
 </p>
 
 - Deployment;
-<p align="center">
-  <img width="70%" height="70%" src="images/predicao_abstencao.png">
-</p>
 
 <p align="center">
   <img width="70%" height="70%" src="images/desempenho_predicao.png">
 </p>
+
+<p align="center">
+  <img width="70%" height="70%" src="images/predicao_abstencao.png">
+</p>
+
 
 
 ## CLASSIFICATION
@@ -50,12 +65,12 @@ I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer 
 - I estimated financial results calculating ROI using the expected revenue from non-defaulters' loans, the expected loss from defaulters' loans, and the total credit amount lent before the solution and after changing the bank's credit policy from my credit scoring model. Finally, after extending credit only to customers with a credit score of 600 or higher, the ROI increased from 9.55% to 42.64%.
 - [Click here to check out the entire project](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
 
-- Some results obtained and model validation;
+- Some results obtained and model validation.
 <p align="center">
   <img width="65%" height="30%" src="images/probability_distributions_by_default.png">
 </p>
 
-- Deployment;
+- Deployment.
 <p align="center">
   <img width="70%" height="70%" src="images/predict_page_webapp.jpeg">
 </p>
