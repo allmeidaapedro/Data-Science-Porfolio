@@ -21,6 +21,7 @@ I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer 
   - Performance analysis and modeling: The goal of this analysis is to identify the key variables impacting the candidate's score, understand their relationship with performance, and utilize them for predicting the score. For the prediction task, a Lasso Regression model is employed, due to interpretability (coefficients), regularization and feature selection characteristics.
   - Absenteeism analysis and modeling: The objective of this analysis is to identify the primary factors influencing a candidate's absence from the exam. Additionally, it aims to examine how these factors correlate with absenteeism and predict the probability of a student's abstention. For the prediction task, a Logistic Regression model is utilized, due to interpretability (exponential coefficients), regularization through l1 penalty, class_weight hyperparameter and efficiency characteristics.
 - Two Flask APIs were developed for deploying the models from both aforementioned analyses. This enables the prediction of a candidate's score or the probability of absenteeism by providing socioeconomic and educational data about the candidate.
+- [Click here to check out the entire project](https://github.com/allmeidaapedro/Enem-Analysis)
 
 - Some results obtained and model validation;
 <p align="center">
