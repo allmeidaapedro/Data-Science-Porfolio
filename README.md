@@ -41,7 +41,6 @@ I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer 
 
 
 ### [**German Bank's Credit Scoring**](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
-
 - This is an end-to-end machine learning project (from data collection to deploy) that uses Random Forest to assign credit scores to potential customers of a German bank.
 - By doing so, it can make informed decisions, protecting Return on Investment (ROI) while minimizing credit risk.
 - I estimated financial results calculating ROI using the expected revenue from non-defaulters' loans, the expected loss from defaulters' loans, and the total credit amount lent before the solution and after changing the bank's credit policy from my credit scoring model. Finally, after extending credit only to customers with a credit score of 600 or higher, the ROI increased from 9.55% to 42.64%.
@@ -59,7 +58,6 @@ I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer 
 
 
 ### [**Credit Card Churn Prediction**](https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card)
-
 - This is an end-to-end machine learning project (from data collection to deploy) that utilizes XGBoost to predict customer's probability of churning in a bank's credit card service.
 - Identifying likely churners helps plan strategies for retention, maintaining healthy revenue. Acquiring a new customer is costlier than keeping one. 
 -  The main objectives were: Identify the factors associated with customer churn; construct a model capable of predicting as many potential churners as possible; offer action plans for the bank to reduce credit card customer churn.
