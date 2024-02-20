@@ -156,7 +156,7 @@ I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer 
 - I am currently studying and working on credit field projects.
 
 ## CONTACT ME
-* [LinkedIn](https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/)  
+* [LinkedIn](https://www.linkedin.com/in/pedro-almeida-ds/)  
 * [GitHub](https://github.com/allmeidaapedro)
 * [E-mail](pedrooalmeida.net@gmail.com)
 
