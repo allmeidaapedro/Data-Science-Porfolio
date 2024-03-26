@@ -1,170 +1,46 @@
-# Welcome to my data science portfolio!
+# Data Science Portfolio
 
-[![author](https://img.shields.io/badge/author-pedroalmeida-red.svg)](https://www.linkedin.com/in/pedro-henrique-almeida-oliveira-77b44b237/)
+## Welcome to my data science portfolio!
 
-
-<p align="center">
-  <img src="images/welcome.jpg"%>
-</p>
-
-I'm Pedro Almeida from Brazil, a 20-year-old B.Sc. student majoring in Computer Engineering at the Federal University of Brasília. Currently, I'm working as a Data Scientist Intern at Mundiale. In this role, I assist in analyzing and interpreting datasets to extract valuable insights. I collaborate with multidisciplinary teams to identify and implement data process improvements. Additionally, I contribute to the development of Natural Language Processing (NLP) models for analyzing textual data, and other models for business cases such as propensity to buy and sales time series forecasting. My responsibilities extend to supporting the team in critically analyzing results from Machine Learning models, influencing data-driven decisions. I also execute A/B tests to validate hypotheses and optimize predictive model performance, actively participating in creating data visualizations and detailed reports. My enthusiasm lies in machine learning, data science, statistics, and mathematics, and I'm constantly working on projects in these areas. Explore them below!
-
-## PROJECTS
- 
- 
-## EXPLORATORY DATA ANALYSIS, CLASSIFICATION AND REGRESSION
-
-### [**Enem analysis and modelling**](https://github.com/allmeidaapedro/Enem-Analysis)
-- This is an end-to-end data science project (from data collection to deployment) where data cleaning, exploratory data analysis, and modeling are performed on microdata from the ENEM 2022 (real public data). ENEM (Exame Nacional do Ensino Médio) is a standardized national exam in Brazil used for university admissions and evaluation of high school education.
-- Cleaning was crucial, given that the original microdata set was over 2 GB in size, making data manipulation, analysis, and modeling impractical. After completion, a parquet file was obtained, reducing the size of the original dataset from over 2 GB to approximately 221.7 MB, nearly 10%.
-- The analysis and modeling are divided into two approaches:
-  - Performance analysis and modeling: The goal of this analysis is to identify the key variables impacting the candidate's score, understand their relationship with performance, and utilize them for predicting the score. For the prediction task, a Lasso Regression model is employed, due to interpretability (coefficients), regularization and feature selection characteristics. Furthermore, a certain linear relationship between the features and the target was observed. For example, as the candidate's mother's education level increased, the performance also increased monotonically. This factor, coupled with the absence of multicollinearity, favored the selection of such a linear model.
-  - Absenteeism analysis and modeling: The objective of this analysis is to identify the primary factors influencing a candidate's absence from the exam. Additionally, it aims to examine how these factors correlate with absenteeism and predict the probability of a student's abstention. For the prediction task, a Logistic Regression model is utilized, due to interpretability (exponential coefficients), regularization through l1 penalty, class_weight hyperparameter and efficiency characteristics. Furthermore, a certain linear relationship between the features and the target was observed. For example, as the candidate's mother's education level increased, the abstention rate decreased monotonically. This factor, along with the absence of multicollinearity, favored the choice of such a linear model.
-- Two Flask APIs were developed for deploying the models from both aforementioned analyses. This enables the prediction of a candidate's score or the probability of absenteeism by providing socioeconomic and educational data about the candidate.
-- [Click here to check out the entire project](https://github.com/allmeidaapedro/Enem-Analysis)
-
-- Some interesting points discovered include:
-- 1. Observing Lasso Regression coefficients, the increase of one unit in has_computer_at_home variable, that is, from zero to one, or from one to two or more, reflects an increase of 9.45 in the overall score, considering all other variables constant. That makes sense, as we observed in the performance analysis that students who did not have a computer at home exhibited lower performance compared to those who did.
-  <p align="center">
-  <img width="80%" height="80%" src="images/nota_pc_net.png">
-  </p>
-
-- 2. Observing Logistic Regression coefficients exponentials (representing the odds-ratio), for each increase of one unit in age group (i.e., from adolescent to young adult, adult to middle-aged to elderly, for example), the odds of abstention increase by 35%, considering all other variables constant. That makes sense, as we observed in the absence analysis that the abstention rate among adult, middle-aged, and elderly candidates was higher than that of adolescent and young adult candidates.
-
-  <p align="center">
-  <img width="80%" height="80%" src="images/comparecimento_faixa_etaria.png">
-  </p>
-
-- Some results obtained and model validation;
+[![author](https://img.shields.io/badge/author-pedroalmeida-red.svg)](https://www.linkedin.com/in/pedro-almeida-ds/)
 
 <p align="center">
-  <img width="65%" height="30%" src="images/actual_predicted.png">
+  <img src="https://github.com/allmeidaapedro/Portfolio-Ciencia-de-Dados/blob/main/images/Black%20Modern%20Personal%20LinkedIn%20Banner.png">
 </p>
 
-<p align="center">
-  <img width="80%" height="80%" src="images/faixas_score_ausentes.png">
-</p>
+Hello! My name is Pedro Almeida, and I am a 20-year-old student pursuing a Bachelor's degree in Computer Engineering at the University of Brasília. Currently, I work as a Data Science Intern at Mundiale. In this role, I assist in the analysis and interpretation of data sets, extracting valuable insights. I collaborate with multidisciplinary teams to identify and implement improvements in data processes. I contribute to the development of Natural Language Processing (NLP) models for textual data analysis, as well as other models for purchase propensity and sales forecasting, for example. I provide support to the team in the critical analysis of results obtained by Machine Learning models, influencing data-driven decisions. I conduct A/B tests to validate hypotheses and optimize the performance of predictive models and actively participate in creating data visualizations and detailed reports. My passion lies in machine learning, data science, statistics, and mathematics, and I am constantly working on projects in these areas. Explore them below!
 
-- Deployment;
+## Projects
 
-<p align="center">
-  <img width="70%" height="70%" src="images/desempenho_predicao.png">
-</p>
+### EXPLORATORY DATA ANALYSIS, CLASSIFICATION, AND REGRESSION
 
-<p align="center">
-  <img width="70%" height="70%" src="images/predicao_abstencao.png">
-</p>
+#### [Analysis and modeling of ENEM 2022 microdata](https://github.com/allmeidaapedro/Enem-Modeling)
 
+- **Description:** This is an end-to-end data science project (from data collection to deployment), in which data cleaning, exploratory analysis, and modeling of ENEM 2022 microdata (real public data) are performed.
+- **Problem and objectives:** The objective is to perform an analysis and modeling of performance and abstention in the exam. The performance analysis and modeling aim to identify the relationship of variables with the student's score and build a model to predict this score and understand the impact of the variables on it. The abstention analysis and modeling aim to identify the relationship of variables with the student's abstention and build a model to predict the probability of a student abstaining from the exam, as well as to interpret its results in the same way. For this, the LightGBM algorithm was used, given its predictive power, fast training, and prediction.
+- **Results:** Interesting relationships were noticed through exploratory data analysis and SHAP value analysis, such as, the higher the mother's education level of the candidate, the higher the performance and the lower the abstention rate. The models had satisfactory performances. With an MAE = 55.7, on average, the model's predictions deviate from the students' actual scores by 55.7 points. With an ROC-AUC = 0.69, there is a discriminatory power in distinguishing students who were present and students who were absent. Two Flask APIs were developed for deploying the models for both analyses mentioned above. Thus, it is possible to predict the score or the probability of abstention of a candidate by providing socio-economic and educational data about them.
 
+### CLASSIFICATION AND REGRESSION
 
-## CLASSIFICATION
+#### [Credit Risk Modeling (PD, EAD, LGD, EL) - Lending Club](https://github.com/allmeidaapedro/Lending-Club-Credit-Scoring)
 
+- **Description:** In this project, I perform credit risk modeling, including Probability of Default (PD), Exposure at Default (EAD), Loss Given Default (LGD), and Expected Loss (EL) models, using data from loans from 2007 to 2014 from the American institution Lending Club.
+- **Business problem:** Lending Club faces a significant challenge in managing loss risks while optimizing profits for its investors. The platform hopes to estimate risks accurately to maintain a sustainable and profitable business. So, the CEO wants insights into credit risk in the company's concessions and models of PD, EAD, and LGD to estimate the expected loss (EL) on each loan. This, along with credit scores, will be used to develop possible credit policies in the company. Moreover, being an online platform, it is important to explain to customers why the decision to approve or deny a loan. So, the results of these models should be explainable and interpretable.
+- **Objectives:** Develop PD, EAD, and LGD models to compute the expected loss on each loan, EL. From this, develop a credit policy considering the estimated losses and the annualized ROI of each asset. Then, monitor the model, accessing indicators of population stability, assessing the need for a new model one year after it is built.
+- **Results:** The PD model had good discriminatory ability, with AUC = 0.7 and KS = 0.3, as well as ordering in scores, concentrating more than 50% of bad customers up to the third score range. The LGD and EAD models had satisfactory predictive power. The credit policy was developed and reduced both expected losses and the default rate. The model was monitored, and the need for a new one was soon assessed, as the scores showed a PSI of 0.19.
 
-### [**German Bank's Credit Scoring**](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
-- This is an end-to-end machine learning project (from data collection to deploy) that uses Random Forest to assign credit scores to potential customers of a German bank.
-- By doing so, it can make informed decisions, protecting Return on Investment (ROI) while minimizing credit risk.
-- I estimated financial results calculating ROI using the expected revenue from non-defaulters' loans, the expected loss from defaulters' loans, and the total credit amount lent before the solution and after changing the bank's credit policy from my credit scoring model. Finally, after extending credit only to customers with a credit score of 600 or higher, the ROI increased from 9.55% to 42.64%.
-- [Click here to check out the entire project](https://github.com/allmeidaapedro/Credit-Scoring-German-Bank)
+#### [Credit Card Churn Prediction](https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card)
 
-- Some results obtained and model validation.
-<p align="center">
-  <img width="65%" height="30%" src="images/probability_distributions_by_default.png">
-</p>
+- **Description:** This is an end-to-end machine learning project (from data collection to deployment) that uses LightGBM to predict the probability of a customer canceling the credit card service of a bank.
+- **Business problem:** The bank manager is tired of seeing more and more customers stop using their credit card product. He needs us to identify the probability of canceling the service for each customer, in order to rank them by cancellation chance and take possible actions from there, such as offering promotions. Identifying potential customers prone to cancellation helps plan retention strategies, maintaining healthy revenue. Acquiring a new customer is more expensive than retaining an existing one.
+- **Objectives:** Identify factors associated with customer churn; build a model capable of accurately predicting the probability of canceling the service for a customer; offer action plans for the bank to reduce credit card churn.
+- **Results:** It was possible to achieve an estimated gain of $171,477, calculating the difference between the gain of true positives, the retention cost of false positives, and the cost of false negatives that cancel. Additionally, the model exhibits incredible performance, given the quality of the data and the modeling carried out.
 
-- Deployment.
-<p align="center">
-  <img width="70%" height="70%" src="images/predict_page_webapp.jpeg">
-</p>
+### REGRESSION AND TIME SERIES
 
+#### [Store Item Demand Forecasting](https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting)
 
-### [**Credit Card Churn Prediction**](https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card)
-- This is an end-to-end machine learning project (from data collection to deploy) that utilizes XGBoost to predict customer's probability of churning in a bank's credit card service.
-- Identifying likely churners helps plan strategies for retention, maintaining healthy revenue. Acquiring a new customer is costlier than keeping one. 
--  The main objectives were: Identify the factors associated with customer churn; construct a model capable of predicting as many potential churners as possible; offer action plans for the bank to reduce credit card customer churn.
-- It was possible to achieve an estimated gain of $198,098.82 by calculating the difference between the true positive gain, the cost of retaining false positives and the cost of false negatives churning.
-- [Click here to check out the entire project](https://github.com/allmeidaapedro/Churn-Prediction-Credit-Card)
-
-- Some analysis made;
-<p align="center">
-  <img width="80%" height="80%" src="images/numeric_distributions_by_churn.png">
-</p>
- 
-- Deployment;
-<p align="center">
-  <img width="20%" height="20%" src="images/output_example.jpeg">
-</p>
-
-
-## REGRESSION / TIME SERIES FORECASTING
-
-### [**Store Item Demand Forecasting**](https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting)
-- In this project, I performed time series forecasting using LightGBM to predict sales for 50 items across 10 different stores in a 3-month period.
-- By doing this, the company will be able to strategically manage inventory and allocate resources effectively, maximizing overall revenue and profit. 
-- The financial result per store, per store and item and for the total company is present inside the project.
-- [Click here to check out the entire project](https://github.com/allmeidaapedro/Store-Item-Demand-Forecasting)
-
-- Some analysis made;
-<p align="center">
-  <img width="50%" height="50%" src="images/time_series_decomposition.png">
-</p>
-
-- Model results;
-<p align="center">
-  <img width="80%" height="80%" src="images/actual_pred_graph_lgb.png">
-</p>
-
-
-## CLUSTERING
-
-### [**Retail Store's Customer Segmentation and Fidelity Program**](https://github.com/allmeidaapedro/Customer-Segmentation-Retail)
-- In this project, I performed an unsupervised learning clustering task using K-Means on unlabeled training data to segment and profile customers for a retail store.
-- After segmenting the clients, a loyalty program called "Prosperous" was developed based on the profile of our best customers, the Prosperous ones. 
-- The loyalty program has the potential to increase the total store revenue by 9%, amounting to $125,228.55. Therefore, the project is worthwhile.
-- [Click here to check out the entire project](https://github.com/allmeidaapedro/Customer-Segmentation-Retail)
-
-- Clustering;
-<p align="center">
-  <img width="65%" height="65%" src="images/sihouette_plot_kmeans.png">
-</p>
-
-- Model results;
-<p align="center">
-  <img width="80%" height="100%" src="images/scatterplot_clusters.png">
-</p>
-
-
-## EXPLORATORY DATA ANALYSIS
-
-### [**Olist Store**](https://github.com/allmeidaapedro/Olist-Analysis)
-- In this project, I performed an exploratory data analysis of a Brazilian e-commerce company, Olist. Some business questions were formulated and answered through techniques involving data collection, cleaning, exploration, and visualization.
-- [Click here to check out the entire project](https://github.com/allmeidaapedro/Olist-Analysis)
-- Some interesting business questions that have been answered include:
-- 1. The sales grew over the two years, reaching their peak in November 2017, likely due to Black Friday. Furthermore, it is noticeable that after this peak in 2017, sales tend to maintain at a high number compared to previous years.
-
-<p align="center">
-  <img width="65%" height="65%" src="images/vendas_mensal.png">
-</p>
-
-- 2. The states in the South and Southeast regions concentrate the highest numbers of orders, customers, and sellers. Particularly, the state of São Paulo and its capital exhibit values higher than all others. Meanwhile, states in the North and Northeast regions show the lowest indicators.
-
-<p align="center">
-  <img width="65%" height="65%" src="images/pedidos_por_cidade.png">
-</p>
-
-
-## IN DEVELOPMENT 
-- I am currently studying and working on credit field projects.
-
-## CONTACT ME
-* [LinkedIn](https://www.linkedin.com/in/pedro-almeida-ds/)  
-* [GitHub](https://github.com/allmeidaapedro)
-* [E-mail](pedrooalmeida.net@gmail.com)
-
-
-
-
-
-
-
-
-
+- **Description:** In this project, I performed time series forecasting using LightGBM to predict the number of sales of 50 items in 10 different stores over a period of 3 months.
+- **Business problem:** A retail store manager wishes to plan a strategy to manage stock and investments in 10 stores for 50 products, aiming to effectively meet customer demand. By employing predictive analysis, they seek to improve sales forecasts, maintain product availability, and boost overall store performance.
+- **Objectives:** Identify business insights on sales over time, such as seasonal patterns and trends; build a model capable of accurately predicting sales in the next 3 months; Estimate financial outcomes considering these forecasts.
+- **Results:** The financial outcome per store, per store
