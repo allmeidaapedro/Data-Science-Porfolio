@@ -8,7 +8,7 @@
   <img src="images/Black Modern Personal LinkedIn Banner.png"%>
 </p>
 
-Hello! My name is Pedro Almeida and I am a 20-year-old student pursuing a Bachelor's degree in Computer Engineering at the University of Brasília. Currently, I work as a Data Science Intern at Mundiale. In this role, I assist in the analysis and interpretation of datasets, extracting valuable insights. I collaborate with multidisciplinary teams to identify and implement improvements in data processes. I contribute to the development of Natural Language Processing (NLP) models for textual data analysis, as well as other models for purchase propensity and sales forecasting, for example. I provide support to the team in the critical analysis of results obtained by Machine Learning models, influencing data-driven decisions. I conduct A/B tests to validate hypotheses and optimize the performance of predictive models and actively participate in creating data visualizations and detailed reports. My passion lies in machine learning, data science, statistics, and mathematics, and I am constantly working on projects in these areas. Explore them below!
+Hello! My name is Pedro Almeida and I am a 20-year-old student pursuing a Bachelor's degree in Computer Engineering at the University of Brasília. Currently, I work as a Data Scientist Intern at Kinea Investimentos (Itaú). My passion lies in machine learning, data science, statistics, and mathematics, and I am constantly working on projects in these areas. Explore them below!
 
 ## Projects
 
