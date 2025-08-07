@@ -8,7 +8,7 @@
   <img src="images/Black Modern Personal LinkedIn Banner.png"%>
 </p>
 
-Hello! My name is Pedro Almeida and I am a 20-year-old student pursuing a Bachelor's degree in Computer Engineering at the University of Brasília. Currently, I work as a Data Scientist Intern at Kinea Investimentos (Itaú). My passion lies in machine learning, data science, statistics, and mathematics, and I am constantly working on projects in these areas. Explore them below!
+Hello! My name is Pedro Almeida and I am a 22-year-old student pursuing a Bachelor's degree in Computer Engineering at the University of Brasília. Currently, I work as a Data Scientist at Banco do Brasil. My passion lies in machine learning, data science, statistics, and mathematics, and I am constantly working on projects in these areas. Explore them below!
 
 ## Projects
 
